@@ -33,7 +33,7 @@ class ZLViewControllerContainer: UIViewController,UIScrollViewDelegate,ZLHorizon
         menuView.menuDelegate = self
         menuView.setTranslatesAutoresizingMaskIntoConstraints(false)
         menuView.scrollEnabled = false
-        var colors = (backgound:UIColor.darkGrayColor(),trait:UIColor.greenColor(),btn:UIColor.whiteColor())
+        var colors = (backgound:UIColor.darkGrayColor(),trait:UIColor.whiteColor(),btn:UIColor.whiteColor())
         menuView.setMenuStyle(colors.btn, menuFont: nil, trait: colors.trait, height: 1, background: nil)
         superview.addSubview(menuView)
         
