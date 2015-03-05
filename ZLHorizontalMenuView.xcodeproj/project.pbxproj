@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B15BD171AA8F34A00F46FC5 /* ZLCoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15BD161AA8F34A00F46FC5 /* ZLCoreAnimationViewController.swift */; };
 		4BA223FA1AA64F0900B627A9 /* ZLHorizontalMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA223F91AA64F0900B627A9 /* ZLHorizontalMenu.swift */; };
 		4BAF3B0C1AA625760057DBA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF3B0B1AA625760057DBA7 /* AppDelegate.swift */; };
 		4BAF3B111AA625760057DBA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF3B0F1AA625760057DBA7 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B15BD161AA8F34A00F46FC5 /* ZLCoreAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLCoreAnimationViewController.swift; sourceTree = "<group>"; };
 		4BA223F91AA64F0900B627A9 /* ZLHorizontalMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLHorizontalMenu.swift; sourceTree = "<group>"; };
 		4BAF3B061AA625760057DBA7 /* ZLHorizontalMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLHorizontalMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAF3B0A1AA625760057DBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				4BAF3B2B1AA626C10057DBA7 /* ZLViewControllerContainer.swift */,
 				4BA223F91AA64F0900B627A9 /* ZLHorizontalMenu.swift */,
 				4BAF3B2D1AA6280D0057DBA7 /* ViewController.swift */,
+				4B15BD161AA8F34A00F46FC5 /* ZLCoreAnimationViewController.swift */,
 				4BAF3B121AA625760057DBA7 /* Images.xcassets */,
 				4BAF3B141AA625760057DBA7 /* LaunchScreen.xib */,
 				4BAF3B091AA625760057DBA7 /* Supporting Files */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B15BD171AA8F34A00F46FC5 /* ZLCoreAnimationViewController.swift in Sources */,
 				4BAF3B2E1AA6280D0057DBA7 /* ViewController.swift in Sources */,
 				4BAF3B2C1AA626C10057DBA7 /* ZLViewControllerContainer.swift in Sources */,
 				4BA223FA1AA64F0900B627A9 /* ZLHorizontalMenu.swift in Sources */,

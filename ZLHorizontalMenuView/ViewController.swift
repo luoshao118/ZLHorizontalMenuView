@@ -10,24 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameBtn: UIButton!
     var name:NSString!
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         if let title=name
         {
-            nameLabel.text=title
+            nameBtn.setTitle(title, forState: .Normal)
         }
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func showDetail(sender: AnyObject)
+    {
+        let destinationVC = ZLCoreAnimationViewController()
+        self.navigationController?.pushViewController(destinationVC, animated: true)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

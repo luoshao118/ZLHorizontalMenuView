@@ -11,7 +11,7 @@ import UIKit
 class ZLViewControllerContainer: UIViewController,UIScrollViewDelegate,ZLHorizontalMenuDelegate {
     
     var viewControllers = NSMutableArray()
-    let listNames = ["My chats","Notifications","My compte","Setting","Others"]
+    let listNames = ["CoreAnimations","Notifications","My compte","Setting","Others"]
     let listColor = [(0.5,0.1,0.1),(0.1,0.9,0.1),(0.9,0.1,0.7),(0.6,0.5,0.1),(0.1,0.7,0.9)]
     
     var contentView = UIScrollView(frame: CGRectZero)
@@ -50,7 +50,7 @@ class ZLViewControllerContainer: UIViewController,UIScrollViewDelegate,ZLHorizon
         let views = Dictionary(dictionaryLiteral:("superview",superview),("menu",menuView),("content",contentView))
         superview.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[content]|", options: nil, metrics: nil, views:views))
         superview.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[menu]|", options: nil, metrics: nil, views:views))
-        superview.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-24-[menu(==60)]-0-[content]|", options: nil, metrics: nil, views:views))
+        superview.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-64-[menu(==60)]-0-[content]|", options: nil, metrics: nil, views:views))
         
         
         // add the child views into contentview
